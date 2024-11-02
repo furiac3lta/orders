@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
-@RequestMapping("/api/v1/tasks")
+@RequestMapping("/seguimiento/api/v1/tasks")
 public class TaskController {
     @Autowired
     private TaskService taskService;
